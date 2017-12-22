@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 14px/28px "微软雅黑";
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: icon;
+    src: url(../font/iconfont.css), url(../font/iconfont.eot), url(../font/iconfont.svg), url(../font/iconfont.ttf);
+}
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*header*/
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 94px;
+    padding: 25px 0;
+    background: rgba(12, 2, 1, 0.8);
+    z-index: 9999;
+}
+
+.header h2 {
+    float: left;
+    width: 280px;
+    height: 44px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 4px;
+}
+
+.header h2 span {
+    font-size: 12px;
+    line-height: 12px;
+    color: #7F6D69;
+    letter-spacing: 1px;
+}
+
+.header .headerNav {
+    float: right;
+    height: 100%;
+}
+
+.header .headerNav a {
+    display: block;
+    float: left;
+    height: 44px;
+    line-height: 40px;
+    margin: 0 9px;
+    padding: 0 12px;
+    border-bottom: 4px solid transparent;
+    color: #fff;
+}
+
+.header .headerNav a.cur {
+    border-bottom: 4px solid #CE0101;
+}
+
+.header .headerNav a:hover {
+    border-bottom: 4px solid #CE0101;
+}
+
+/*footer*/
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 182px;
+}
+
+.footer p {
+    height: 60px;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    padding-left: 35px;
+    line-height: 60px;
+    font-size: 15px;
+    color: #CA0204;
+}
+
+.footer p a {
+    padding: 0 10px;
+    color: #2D2D2D;
+    font-size: 15px;
+}
+
+.footer .copyright {
+    margin-top: 16px;
+    width: 100%;
+    height: 106px;
+    background: #1B1B1B;
+    line-height: 106px;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,622 @@
+/*banner*/
+#banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#banner ul {
+    position: absolute;
+    width: 600%;
+}
+
+#banner ul li {
+    float: left;
+    width: 16.66%;
+}
+
+#banner ul li img {
+    display: block;
+    width: 100%;
+}
+
+#banner .pageN {
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    z-index: 1;
+    bottom: 40px;
+}
+
+#banner .pageN a {
+    display: block;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    background: #B29583;
+    font-weight: 700;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#banner .pageN a.cur {
+    background-color: #fff;
+}
+
+#banner .pageN a:hover {
+    background: #efb327;
+}
+
+#banner .leftBtn, #banner .rightBtn {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    font-family: icon;
+    display: none;
+    width: 86px;
+    height: 52px;
+    color: #fff;
+    border: 2px solid #fff;
+    line-height: 52px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#banner .leftBtn {
+    left: 100px;
+}
+
+#banner .rightBtn {
+    right: 100px;
+}
+
+#banner:hover .leftBtn, #banner:hover .rightBtn {
+    display: block;
+}
+
+/*通知公告*/
+.notice {
+    width: 100%;
+    height: 84px;
+    padding: 24px 0;
+    background: #E9E9E9;
+    font-size: 18px;
+}
+
+.notice p {
+    float: left;
+    width: 544px;
+    height: 40px;
+    line-height: 44px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.notice p span {
+    color: #CF0302;
+}
+
+.notice p a {
+    color: #414141;
+}
+
+.notice .search {
+    float: right;
+    width: 516px;
+    height: 40px;
+}
+
+.notice .search input {
+    float: left;
+    display: block;
+    width: 422px;
+    height: 40px;
+    padding-left: 18px;
+    border: 1px solid #D2D2D2;
+}
+
+.notice .search a {
+    float: left;
+    width: 92px;
+    height: 100%;
+    background: #CE0000;
+    color: #F8E0E0;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+/*main*/
+.main .title {
+    width: 100%;
+    height: 46px;
+}
+
+.main .title h2 {
+    float: left;
+    height: 46px;
+    font-size: 28px;
+    color: #111;
+}
+
+.main .title h2 span {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    font-size: 28px;
+    color: #CD0104;
+}
+
+.main .title h2 em {
+    display: block;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #5C5C5C;
+    text-transform: uppercase;
+}
+
+.main .title a {
+    float: right;
+    margin-right: 12px;
+    line-height: 46px;
+    color: #2D2D2D;
+}
+
+/*新闻动态*/
+.main .news {
+    margin-top: 40px;
+}
+
+.main .news .news-lunbo {
+    margin-top: 19px;
+    width: 100%;
+    height: 346px;
+}
+
+.main .news .box {
+    float: left;
+    position: relative;
+    width: 566px;
+    height: 100%;
+}
+
+.main .news .box ul {
+    width: 100%;
+    height: 100%;
+}
+
+.main .news .box ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.main .news .box ul li.curr {
+    display: block;
+}
+
+.main .news .box ul li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main .news .pageN {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    padding: 8px 13px;
+    background: rgba(51, 1, 0, 0.8);
+    color: #fff;
+}
+
+.main .news .pageN p {
+    float: right;
+    height: 100%;
+}
+
+.main .news .pageN p a {
+    float: left;
+    margin-left: 4px;
+    display: block;
+    width: 27px;
+    height: 24px;
+    background: rgba(82, 36, 36, 0.8);
+    line-height: 24px;
+    text-align: center;
+}
+
+.main .news .pageN p a.cur {
+    background: rgba(124, 92, 93, 0.8);
+}
+
+.main .news .leftBtn, .main .news .rightBtn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    line-height: 30px;
+    font-family: icon;
+    font-size: 10px;
+    font-weight: 600;
+    display: none;
+}
+
+.main .news .leftBtn {
+    top: 50%;
+    left: 20px;
+}
+
+.main .news .rightBtn {
+    top: 50%;
+    right: 20px;
+}
+
+.main .news .newsDetail {
+    float: right;
+    width: 595px;
+    height: 100%;
+    padding: 0 12px;
+}
+
+.main .news .newsDetail .newsDetail-top {
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #C2C2C2;
+}
+
+.main .news .newsDetail .newsDetail-top h2 {
+    width: 100%;
+    line-height: 38px;
+    color: #CF0101;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main .news .newsDetail .newsDetail-top p {
+    width: 100%;
+    height: 56px;
+    color: #767676;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main .news .newsDetail ul {
+    padding: 12px 0;
+    overflow: hidden;
+}
+
+.main .news .newsDetail ul li {
+    line-height: 34px;
+}
+
+.main .news .newsDetail ul li:before {
+    content: '';
+    display: inline-block;
+    margin-right: 14px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #9F9F9F;
+}
+
+.main .news .newsDetail ul li a {
+    color: #2D2D2D;
+}
+
+.main .news .newsDetail ul li a:hover {
+    color: #CF0101;
+}
+
+/*文化传人*/
+.main .cultureC {
+    margin-top: 40px;
+}
+
+.main .cultureC ul {
+    margin-top: 24px;
+    width: 100%;
+}
+
+.main .cultureC ul li {
+    float: left;
+    margin-right: 2px;
+    width: 398px;
+}
+
+.main .cultureC ul li .p-img {
+    width: 398px;
+    height: 196px;
+    overflow: hidden;
+}
+
+.main .cultureC ul li h2 {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    text-align: center;
+    color: #CC0200;
+    font-weight: 700;
+}
+
+.main .cultureC ul li p {
+    margin-bottom: 16px;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*晋善晋美*/
+.main .cultureJ {
+    margin-top: 35px;
+    width: 100%;
+    height: 325px;
+    background: url("../img/index/culture-jsjm.png") no-repeat center/cover;
+}
+
+.main .cultureJ .box {
+    margin: 0 auto;
+    width: 214px;
+    height: 100%;
+    padding-top: 118px;
+    text-align: center;
+}
+
+.main .cultureJ .box h2 {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 48px;
+    color: #fff;
+}
+
+.main .cultureJ .box h2 span {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 48px;
+    color: #CE0205;
+}
+
+.main .cultureJ .box p {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.main .cultureJ .box a {
+    margin: 10px auto;
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.main .cultureJ .lineL, .main .cultureJ .lineR {
+    position: relative;
+    top: -50%;
+    width: 190px;
+    height: 1px;
+    background: #fff;
+}
+
+.main .cultureJ .lineL {
+    left: 28%;
+}
+
+.main .cultureJ .lineR {
+    left: 58%;
+}
+
+/*文化遗产*/
+.main .cultureY {
+    margin-top: 40px;
+}
+
+.main .cultureY ul {
+    margin-top: 24px;
+    width: 100%;
+    height: 510px;
+}
+
+.main .cultureY ul li {
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main .cultureY ul li .img1 {
+    position: relative;
+    width: 366px;
+}
+
+.main .cultureY ul li .img2 {
+    position: relative;
+    margin: 0 4px;
+    width: 460px;
+}
+
+.main .cultureY ul li img {
+    display: block;
+}
+
+.main .cultureY ul li .img2:nth-child(1) {
+    margin-bottom: 4px;
+}
+
+.main .cultureY ul li .shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 46, 43, 0.7);
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.main .cultureY ul li .img:hover .shade {
+    opacity: 1;
+}
+
+.main .cultureY ul li .shade h2 {
+    margin-top: 20%;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main .cultureY ul li .img1 .shade h2 {
+    margin-top: 50%;
+}
+
+.main .cultureY ul li .shade p {
+    margin: 10px auto;
+    width: 70%;
+    line-height: 20px;
+    text-align: center;
+    color: #999;
+}
+
+.main .cultureY ul li .shade a {
+    margin: 10px auto;
+    display: block;
+    width: 70px;
+    height: 22px;
+    line-height: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+/*在线展示*/
+.main .show {
+    margin-top: 40px;
+}
+
+.main .showCulture {
+    position: relative;
+    margin-top: 24px;
+    width: 100%;
+    height: 516px;
+    background: url("../img/index/show.png") no-repeat center/cover;
+}
+
+.main .showCulture .shade {
+    position: absolute;
+    top: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 516px;
+    background: rgba(14, 14, 14, 0.8);
+}
+
+.main .showCulture .video {
+    margin-top: 63px;
+    float: left;
+    width: 550px;
+    height: 390px;
+    padding: 8px;
+    border: 1px solid #fff;
+}
+
+.main .showCulture .introduce {
+    float: left;
+    margin-left: 25px;
+    padding: 25px;
+    width: 625px;
+    height: 100%;
+    color: #fff;
+}
+
+.main .showCulture .introduce h3 {
+    margin-top: 156px;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main .showCulture .introduce p {
+    line-height: 24px;
+    color: #C7C7C7;
+}
+
+.main .showCulture .introduce a {
+    margin-top: 20px;
+    display: block;
+    width: 70px;
+    height: 22px;
+    line-height: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+/*文化商城*/
+.main .cultureS {
+    margin-top: 40px;
+}
+
+.main .cultureS ul {
+    margin-top: 24px;
+    width: 100%;
+    height: 252px;
+}
+
+.main .cultureS ul li {
+    margin-right: 36px;
+    float: left;
+    width: 375px;
+    height: 100%;
+}
+
+.main .cultureS ul li:last-child {
+    margin-right: 0;
+}
+
+.main .cultureS ul li .p-img {
+    width: 100%;
+    height: 196px;
+    overflow: hidden;
+}
+
+.main .cultureS ul li p {
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+    color: #CC0200;
+    text-align: center;
+}

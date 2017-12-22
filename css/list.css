@@ -1,0 +1,584 @@
+/**/
+.banner {
+    width: 100%;
+    height: 666px;
+    text-align: center;
+}
+
+.banner.cultureC {
+    background: url("../img/Window/WindowBanner1.png") no-repeat center/cover
+}
+
+.banner.cultureY {
+    background: url("../img/cultureY/cultureY-banner.png") no-repeat center/cover
+}
+
+.banner.service {
+    background: url("../img/service/service-banner.png") no-repeat center/cover
+}
+
+.banner.line {
+    background: url("../img/line/line-banner.png") no-repeat center/cover
+}
+
+.banner.cream {
+    background: url("../img/cream/cream-banner.png") no-repeat center/cover
+}
+
+.banner.publicC {
+    background: url("../img/publicC/publicC_banner.png") no-repeat center/cover
+}
+
+.banner .shade {
+    width: 100%;
+    height: 666px;
+    background: rgba(12, 4, 1, 0.5);
+    padding-top: 320px;
+}
+
+.banner .shade h2 {
+    font-size: 48px;
+    line-height: 68px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.banner .shade h2 span {
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    color: #CE0100;
+    text-transform: uppercase;
+}
+
+.banner .shade p {
+    font-size: 16px;
+    line-height: 35px;
+    color: #D8D4D3;
+}
+
+/**/
+.main {
+    margin-top: 40px;
+}
+
+.main .mainL {
+    float: left;
+    width: 294px;
+}
+
+.main .mainL h2 {
+    font-size: 26px;
+    line-height: 40px;
+    color: #CF0101;
+    font-weight: 700;
+}
+
+.main .mainL h2 i {
+    font-size: 26px;
+    color: #111;
+    font-weight: 700;
+}
+
+.main .mainL h2 span {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    color: #5C5C5C;
+    text-transform: uppercase;
+}
+
+.main .mainL a {
+    margin-top: 20px;
+    display: block;
+    width: 258px;
+    height: 42px;
+    background: #D2D2D2;
+    line-height: 42px;
+    font-size: 16px;
+    color: #2E2E2E;
+    text-align: center;
+    cursor: pointer
+}
+
+.main .mainL a.cur {
+    background: #CE0000;
+    color: #fff;
+}
+
+.main .mainL a:hover {
+    background: #CE0000;
+    color: #fff;
+}
+
+.main .mainR {
+    float: right;
+    width: 906px;
+    padding: 0 10px;
+}
+
+.main .mainR .title {
+    width: 100%;
+    height: 70px;
+    padding: 19px 10px;
+    border-bottom: 1px solid #B0B0B0;
+}
+
+.main .mainR .title h2 {
+    position: relative;
+    margin-left: 18px;
+    float: left;
+    font-size: 24px;
+    line-height: 30px;
+    color: #D10101;
+}
+
+.main .mainR .title h2 span {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #545454;
+    text-transform: uppercase;
+}
+
+.main .mainR .title h2:before {
+    position: absolute;
+    left: -15px;
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 32px;
+    background: #D10101;
+    margin-right: 18px;
+}
+
+.main .mainR .title p {
+    float: right;
+    line-height: 46px;
+    color: #545454;
+}
+
+.main .mainR .title p a {
+    color: #545454;
+}
+
+.main .mainR .title p a:last-child {
+    color: #CE0000;
+}
+
+.main .mainR .btn {
+    margin: 20px 0;
+    height: 35px;
+    padding: 0 30px;
+}
+
+.main .mainR .btn button {
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    border: none;
+    background: #D2D2D2;
+    color: #2D2D2D;
+    cursor: pointer;
+}
+
+.main .mainR .btn a {
+    display: inline-block;
+    width: 30px;
+    height: 100%;
+    line-height: 35px;
+    background: #D2D2D2;
+    color: #2D2D2D;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main .mainR .btn a.cur {
+    background: #CE0000;
+    color: #fff;
+}
+
+/*文化视窗*/
+/*文化视窗*/
+.main .mainR .policy, .main .mainR .opinion {
+    margin-top: 14px;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.main .mainR .policy .item, .main .mainR .opinion .item {
+    width: 100%;
+    height: 142px;
+    padding-top: 18px;
+    border-bottom: 1px dotted #B0B0B0;
+    overflow: hidden;
+}
+
+.main .mainR .policy .item:last-child, .main .mainR .opinion .item:last-child {
+    border-bottom: none;
+}
+
+.main .mainR .policy .item h2, .main .mainR .opinion .item .p-name h2 {
+    font-size: 16px;
+    line-height: 32px;
+    color: #CD0102;
+}
+
+.main .mainR .policy .item p, .main .mainR .opinion .item .p-name p {
+    line-height: 24px;
+    color: #323232;
+}
+
+/*学术观点*/
+.main .mainR .opinion .item .p-img {
+    float: left;
+    width: 214px;
+    height: 106px;
+    border: 1px solid #DCDDE2;
+    padding: 3px;
+    overflow: hidden;
+}
+
+.main .mainR .opinion .item .p-name {
+    float: left;
+    margin-left: 26px;
+    width: 580px;
+}
+
+/*越剧*/
+.main .mainR .content .opera {
+    padding: 20px;
+}
+
+.main .mainR .content .opera .p-name {
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px dashed #B0B0B0;
+    text-align: center;
+}
+
+.main .mainR .content .opera .p-name h2 {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    font-size: 22px;
+    color: #CF0101;
+    overflow: hidden;
+}
+
+.main .mainR .content .opera .p-name span {
+    color: #757575;
+}
+
+.main .mainR .content .opera .p-img {
+    margin: 34px 10px;
+    width: 824px;
+    height: 326px;
+    overflow: hidden;
+}
+
+.main .mainR .content .opera p {
+    padding: 5px 10px;
+    font: 16px/32px "微软雅黑";
+    text-align: justify;
+    text-indent: 2em;
+    color: #464646;
+}
+
+/*文化遗产*/
+/*非物质文化遗产*/
+.main .mainR .content .immateriality .place {
+    width: 100%;
+    height: 182px;
+    border-bottom: 1px solid #B0B0B0;
+    padding: 31px 0;
+}
+
+.main .mainR .content .immateriality .place p {
+    margin: 8px 0;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    color: #D32525;
+}
+
+.main .mainR .content .immateriality .place p a {
+    display: inline-block;
+    height: 100%;
+    color: #353535;
+    padding: 0 14px;
+    line-height: 24px;
+}
+
+.main .mainR .content .immateriality .place p a.cur {
+    background: #CE0000;
+    color: #fff;
+}
+
+.main .mainR .content .immateriality .place p a:hover {
+    background: #CE0000;
+    color: #fff;
+}
+
+.main .mainR .content .immateriality ul {
+    margin: 33px 0;
+}
+
+.main .mainR .content .immateriality ul li {
+    width: 432px;
+    height: 310px;
+}
+
+.main .mainR .content .immateriality ul li:nth-child(2n+1) {
+    float: left;
+}
+
+.main .mainR .content .immateriality ul li:nth-child(2n) {
+    float: right;
+}
+
+.main .mainR .content .immateriality ul li .p-img {
+    width: 100%;
+    height: 240px;
+    border: 1px solid #C0C1C6;
+    overflow: hidden;
+}
+
+.main .mainR .content .immateriality ul li p {
+    line-height: 74px;
+    color: #333;
+    text-align: center;
+}
+
+.main .mainR .content .immateriality ul li p:hover {
+    color: #D00000;
+}
+
+/*公共服务*/
+/*企业掠影*/
+.main .mainR .content .company {
+    width: 100%;
+    padding: 14px 8px;
+}
+
+.main .mainR .content .company .companyT {
+    width: 100%;
+    height: 44px;
+}
+
+.main .mainR .content .company .companyT a {
+    float: left;
+    margin: 2px;
+    display: block;
+    width: 170px;
+    height: 100%;
+    background: #D2D2D2;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
+    color: #313131;
+}
+
+.main .mainR .content .company .companyT a.cur {
+    background: #CE0000;
+    color: #fff;
+}
+
+.main .mainR .content .company .companyT a:hover {
+    background: #CE0000;
+    color: #fff;
+}
+
+.main .mainR .content .company .box .item {
+    margin-top: 26px;
+    width: 100%;
+    height: 200px;
+}
+
+.main .mainR .content .company .box .item {
+    margin-top: 26px;
+    width: 100%;
+    height: 200px;
+}
+
+.main .mainR .content .company .box .item .p-img {
+    float: left;
+    width: 372px;
+    height: 100%;
+}
+
+.main .mainR .content .company .box .item .p-name {
+    float: left;
+    padding-left: 42px;
+    width: 495px;
+    height: 100%;
+}
+
+.main .mainR .content .company .box .item .p-name h2 {
+    margin-top: 34px;
+    font-size: 16px;
+    line-height: 36px;
+    color: #333;
+}
+
+.main .mainR .content .company .box .item .p-name p {
+    line-height: 24px;
+    color: #333;
+}
+
+.main .mainR .content .company .box .item .p-name a {
+    margin-top: 14px;
+    display: block;
+    width: 75px;
+    height: 24px;
+    border: 1px solid #aaa;
+    line-height: 22px;
+    text-align: center;
+    color: #333;
+}
+
+/*服务体系*/
+.main .mainR .content .service {
+    padding: 0 14px;
+}
+
+.main .mainR .content .service p {
+    margin-top: 16px;
+    width: 100%;
+    height: 106px;
+    padding: 16px 0;
+    font-size: 16px;
+    line-height: 36px;
+    border-bottom: 1px dashed #8B8B8B;
+    text-indent: 2em;
+    color: #CF0103;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.main .mainR .content .service ul {
+    margin-top: 22px;
+    width: 100%;
+}
+
+.main .mainR .content .service ul li {
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+.main .mainR .content .service ul li i {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #262626;
+}
+
+.main .mainR .content .service ul li a {
+    margin-left: 26px;
+    color: #262626;
+}
+
+.main .mainR .content .service ul li span {
+    float: right;
+    line-height: 56px;
+}
+
+.main .mainR .content .service ul li span a {
+    color: #D73434;
+}
+
+.main .mainR .content .service ul li:hover a {
+    color: #CE0201;
+}
+
+.main .mainR .content .service ul li:hover i {
+    background: #CE0201;
+}
+
+/*工商注册*/
+.main .mainR .content .gsRegister {
+    padding: 20px 15px;
+}
+
+.main .mainR .content .gsRegister h2 {
+    line-height: 48px;
+    font-size: 24px;
+    color: #CE0000;
+}
+
+.main .mainR .content .gsRegister .step {
+    padding: 10px 0;
+}
+
+.main .mainR .content .gsRegister .step h3 {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CD0102;
+}
+
+.main .mainR .content .gsRegister .step p {
+    color: #313131;
+}
+
+.main .mainR .content .gsRegister a {
+    margin: 20px 0;
+    padding: 14px 20px;
+    display: block;
+    width: 178px;
+    height: 64px;
+    background: #CE0000;
+    border-radius: 8px;
+}
+
+.main .mainR .content .gsRegister a span {
+    display: block;
+    float: right;
+    width: 90px;
+    height: 100%;
+    line-height: 36px;
+    color: #fff;
+    font-size: 16px;
+}
+
+/*在线展示*/
+.main .mainR .content .animation {
+    margin: 44px;
+}
+
+.main .mainR .content .animation ul {
+    margin-top: 40px;
+}
+
+.main .mainR .content .animation ul li {
+    width: 372px;
+    height: 286px;
+}
+
+.main .mainR .content .animation ul li .p-img {
+    width: 100%;
+    height: 201px;
+    overflow: hidden;
+}
+
+.main .mainR .content .animation ul li p {
+    line-height: 85px;
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+
+.main .mainR .content .animation ul li p:hover {
+    color: #CE0000;
+}
+
+.main .mainR .content .animation ul li:nth-child(2n+1) {
+    float: left;
+}
+
+.main .mainR .content .animation ul li:nth-child(2n) {
+    float: right;
+}
